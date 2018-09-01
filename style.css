@@ -1,0 +1,110 @@
+body {
+  margin: 0;
+  background: #e9e9e9;
+  display: flex;
+  align-items: center;
+  height: 100vh;
+  font-family: system-ui;
+}
+
+.gameboard {
+  height: 100vh;
+  width: 100vh;
+  border-radius: 50%;
+  overflow: hidden;
+  margin: 0 auto;
+  max-height: 60vh;
+  max-width: 60vh;
+  box-shadow: 5px 5px 20px rgba(0, 0, 0, .3);
+}
+
+.color {
+  width: 50%;
+  height: 50%;
+  display: inline-block;
+}
+
+.left {
+  float: left;
+}
+
+.right {
+  float: left;
+}
+
+.celeste {
+  background: #22377c;
+  transition: .2s;
+}
+
+.celeste.light {
+  background: #123ece;
+  transform: scale(1.03);
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, .2);
+}
+
+.violeta {
+  background: #7b1592;
+  transition: .2s;
+}
+
+.violeta.light {
+  background: #bf0ce7;
+  transform: scale(1.03);
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, .2);
+}
+
+.naranja {
+  background: #a32727;
+  transition: .2s;
+}
+
+.naranja.light {
+  background: #e61111;
+  transform: scale(1.03);
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, .2);
+}
+
+.verde {
+  background: #1c864c;
+  transition: .2s;
+}
+
+.verde.light {
+  background: #10e46f;
+  transform: scale(1.03);
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, .2);
+}
+
+.btn-start {
+  cursor: pointer;
+  width: 420px;
+  height: 100px;
+  background: #ecf0f1;
+  color: #2c3e50;
+  border: none;
+  border: 2px solid #2c3e50;
+  border-radius: 8px;
+  font-size: 3em;
+  letter-spacing: 2px;
+  position: absolute;
+  top: calc(50% - 50px);
+  left: calc(50% - 210px);
+  transition: .5s;
+  outline: none;
+}
+
+.btn-start:hover {
+  color: #ecf0f1;
+  background: #2c3e50;
+  border-bottom: 4px solid #1f3346;
+  letter-spacing: -1px;
+}
+
+.btn-start:active {
+  transform: scale(.95);
+}
+
+.hide {
+  display: none;
+}
