@@ -5,4 +5,4 @@ This game was created at [Platzi JavaScript Course](https://platzi.com/cursos/fu
 VanillaJS and SweetAlert
 
 ## Where can I see the game?
-At [this website](https://alan4dev.github.io/SimonColors)
+At [this website](https://alan4dev.github.io/SimonColors/)
